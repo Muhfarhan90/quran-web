@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Homepage from "./Homepage";
-import Splashscreen from "./Splashscreen";
+import Homepage from "./pages/Homepage";
+import Splashscreen from "./pages/Splashscreen";
 
 function App() {
   return (
