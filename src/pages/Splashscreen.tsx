@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../components/common/Button";
 
 function Splashscreen() {
   return (
@@ -11,9 +12,9 @@ function Splashscreen() {
       </div>
       <Link
         to={"/home"}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex items-center justify-center w-[calc(100%-40px)] bg-white text-[#001140] py-3 rounded-full mt-4 font-bold text-lg"
+        className="absolute  left-5 right-5 bottom-10 "
       >
-        Get Started
+        <Button name="Get Started" />
       </Link>
     </div>
   );
