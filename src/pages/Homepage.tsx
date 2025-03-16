@@ -1,5 +1,5 @@
 import Profile from "../components/Profile";
-import Photo from "./assets/Photo.png";
+import Photo from "../assets/Photo.png";
 import CardSurah from "../components/CardSurah";
 import { useEffect, useState } from "react";
 
