@@ -1,16 +1,16 @@
-type DetailSurahInfoProps = {
+type SurahInfoProps = {
   namaLatin: string;
   arti: string;
   tempatTurun: string;
   jumlahAyat: number;
 };
 
-function DetailSurahInfo({
+function SurahInfo({
   namaLatin,
   arti,
   tempatTurun,
   jumlahAyat,
-}: DetailSurahInfoProps) {
+}: SurahInfoProps) {
   return (
     <div className="absolute right-5 left-5 bg-[url('./assets/AyatBackground.png')] bg-no-repeat bg-cover h-[183px] rounded-3xl flex flex-col text-white">
       <div className="py-5 px-4">
@@ -31,4 +31,4 @@ function DetailSurahInfo({
   );
 }
 
-export default DetailSurahInfo;
+export default SurahInfo;
