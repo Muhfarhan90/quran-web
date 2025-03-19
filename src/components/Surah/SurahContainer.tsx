@@ -35,7 +35,7 @@ function SurahContainer() {
   }
 
   return (
-    <div className="w-[560px] px-4">
+    <div className="w-[560px]">
       <SurahList surahs={surahs} />;
     </div>
   );

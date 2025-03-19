@@ -1,12 +1,15 @@
-// import AyatList from "../components/Ayat/AyatList";
-import SurahInfo from "../components/Surah/SurahInfo";
+// import DetailSurah from "../components/DetailSurah/DetailSurah";
+import { Link } from "react-router-dom";
+import DetailSurahContainer from "../components/DetailSurah/DetailSurahContainer";
 
 function DetailSurahPage() {
   return (
-    <div className="absolute min-h-screen w-[360px] bg-[#001140] py-10 px-5">
-      <SurahInfo namaLatin="Al-A'raf" arti="Tempat Tertinggi" tempatTurun="Mekah" jumlahAyat={206} />
-      {/* <AyatList /> */}
-      </div>
+    <div className="bg-background max-w-[600px] mx-auto min-h-screen px-4 pb-3">
+      <Link to="/home">
+        <div className="text-white flex items-center gap-2 py-5"><span>⬅</span>Daftar Surah</div>
+      </Link>
+      <DetailSurahContainer />
+    </div>
   );
 }
 
