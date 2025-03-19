@@ -10,7 +10,7 @@ function AyatCard({ ayat }: AyatCardProps) {
     <div className="flex flex-col gap-3 text-white bg-dark rounded-lg p-4 cursor-pointer w-full">
       <div className="flex justify-between gap-4">
         <Number nomor={ayat.nomorAyat} />
-        <p className="text-xl text-white/80 arab text-right w-full font-bold">{ayat.teksArab}</p>
+        <p className="text-xl text-white/80 arab text-right w-full font-bold leading-9">{ayat.teksArab}</p>
       </div>
 
       <div className="flex flex-col gap-[6px] text-light mt-2">

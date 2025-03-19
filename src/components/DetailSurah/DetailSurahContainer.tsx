@@ -43,7 +43,6 @@ function DetailSurahContainer() {
     return () => {
       if (audioRef.current) {
         audioRef.current.pause();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
         audioRef.current.src = "";
       }
     };
